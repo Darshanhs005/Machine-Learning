@@ -54,7 +54,38 @@ For the above architecture we have 98% accuracy, we see that test and train accu
 
 Comparing all the three Models, first model has better accuracy rate with 12 epochs, in second architecture accuracy is all most same has first one with 4 epochs. In the last model we can see the accuracy is low, because we have not used any dropout layers and its inefficient.
 
+Predecting House Prcies 
 
+LINEAR REGRESSION MODEL
+• Linear Regression is a one of the Supervised Machin learning 
+algorithms, it used to predict dependent value y based on the given 
+independent variable x.
+
+SUPPORT VECTOR MACHINE(SVMR)
+Support Vector Regression (SVR) is quite different than other 
+Regression models. It uses the Support Vector Machine (SVM, a 
+classification algorithm) algorithm to predict a continuous variable. 
+While other linear regression models try to minimize the error between 
+the predicted and the actual value, Support Vector Regression tries to fit 
+the best line within a predefined or threshold error value. 
+
+K-NEAREST NEIGHBORS
+• KNN is a non-parametric and lazy learning algorithm. Non-parametric 
+means there is no assumption for underlying data distribution.
+• In other words, the model structure determined from the dataset. This 
+will be very helpful in practice where most of the real-world datasets do 
+not follow mathematical theoretical assumptions. 
+• Lazy algorithm means it does not need any training data points for 
+model generation. All training data used in the testing phase. This 
+makes training faster and testing phase slower and costlier.
+4
+• Costly testing phase means time and memory. In the worst case, KNN 
+needs more time to scan all data points and scanning all data points will 
+require more memory for storing training data.
+KNN has the following basic steps:
+• Calculate distance
+• Find closest neighbours
+• Vote for labels
 
 
 References: https://keras.io/api/ , https://mlexplained.com/2018/01/10/an-intuitive-explanation-of-why-batch-normalization-really-works-normalization-in-deep-learning-part-1/
