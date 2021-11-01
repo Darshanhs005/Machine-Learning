@@ -1,5 +1,6 @@
 # Machine-Learning
 Three different Architecture of Neural Networks as follows 
+Architecture 1:
 1.	The following Architecture is Built using Kera’s Sequential API:	
 
 •	Here I am using two Conv2d Layers with 32 and 64 filters using relu activation function, Kernel size 3. 
