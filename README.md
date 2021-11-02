@@ -18,6 +18,10 @@ dict_keys(['val_loss', 'val_accuracy', 'loss', 'accuracy'])
 For the above architecture we have 99.29% accuracy, we see that test and train accuracy above 99% near after 10 epochs’, this model for 12 epochs. Train and Test loss is reaching nearly 0.025 after 10 epochs. 
 Note: on the above model, for Optimization we are using “keras.optimizers.Adadelta()”
 ![Image of Architecture](AR_Results.png)
+
+
+
+
 Architecture 2:
 ![Image of Architecture](AR2.png)
 1.	The following Architecture is Built using Kera’s Sequential API:
@@ -34,7 +38,12 @@ dict_keys(['val_loss', 'val_accuracy', 'loss', 'accuracy'])
 
 For the above architecture we have 99.1% accuracy, we see that test and train accuracy almost to 99% accuracy after 4 epochs’, this model for 4 epochs. Train and Test loss is reaching nearly 0.005 after 4 epochs. 
 Note: on the above model, for Optimization we are using “keras.optimizers.Adadelta()”
-AR_3Results.png
+![Image of Architecture](AR_2result.png) 
+
+
+
+
+
 Architecture 3:
 ![Image of Architecture](AR3.png)
 The following Architecture is Built using Kera’s Sequential API:
