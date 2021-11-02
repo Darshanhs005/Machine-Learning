@@ -17,9 +17,9 @@ dict_keys(['val_loss', 'val_accuracy', 'loss', 'accuracy'])
   
 For the above architecture we have 99.29% accuracy, we see that test and train accuracy above 99% near after 10 epochs’, this model for 12 epochs. Train and Test loss is reaching nearly 0.025 after 10 epochs. 
 Note: on the above model, for Optimization we are using “keras.optimizers.Adadelta()”
-
+![Image of Architecture](AR_Results.png)
 Architecture 2:
-![Image of Architecture](A2.png)
+![Image of Architecture](AR2.png)
 1.	The following Architecture is Built using Kera’s Sequential API:
 •	Here I am using three Conv2d Layers with 32 and two 64 filters using relu activation function, Kernel size 3. 
 •	Every Conv2D layer is followed immediately by a MaxPooling2D layer with a pool size= (2,2)
@@ -34,9 +34,9 @@ dict_keys(['val_loss', 'val_accuracy', 'loss', 'accuracy'])
 
 For the above architecture we have 99.1% accuracy, we see that test and train accuracy almost to 99% accuracy after 4 epochs’, this model for 4 epochs. Train and Test loss is reaching nearly 0.005 after 4 epochs. 
 Note: on the above model, for Optimization we are using “keras.optimizers.Adadelta()”
-
+AR_3Results.png
 Architecture 3:
-
+![Image of Architecture](AR3.png)
 The following Architecture is Built using Kera’s Sequential API:
 •	Here I am using three Conv2d Layers with 32 with relu activation, Conv2d Layers with 64 using tanh activation function and Conv2d Layers 64 filter with relu activation, Kernel size 3. 
 •	Every Conv2D layer is followed immediately by a MaxPooling2D layer with a pool size= (2,2)
@@ -48,7 +48,7 @@ The following Architecture is Built using Kera’s Sequential API:
 
 Test loss: 0.0504283158945851
 Test accuracy: 0.983299970626831
-  
+![Image of Architecture](AR_3Results.png)  
 
 For the above architecture we have 98% accuracy, we see that test and train accuracy is slightly a 98% accuracy after 6 epochs’, this model for 6 epochs. Train and Test loss is reaching nearly 0.05 after 5 epochs. In this model we are using customized learning rate i.e. 0.1
 
