@@ -2,7 +2,8 @@
 Three different Architecture of Neural Networks as follows 
 Architecture 1:
 1.	The following Architecture is Built using Kera’s Sequential API:	
-
+ ![Image of Yaktocat](A1.png)
+ 
 •	Here I am using two Conv2d Layers with 32 and 64 filters using relu activation function, Kernel size 3. 
 •	Every Conv2D layer is followed immediately by a MaxPooling2D layer with a pool size= (2,2)
 •	Dropout has been used to overcome overfitting used with different filters in between flatter 
