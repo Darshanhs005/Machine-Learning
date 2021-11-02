@@ -19,7 +19,7 @@ For the above architecture we have 99.29% accuracy, we see that test and train a
 Note: on the above model, for Optimization we are using “keras.optimizers.Adadelta()”
 
 Architecture 2:
-
+![Image of Architecture](A2.png)
 1.	The following Architecture is Built using Kera’s Sequential API:
 •	Here I am using three Conv2d Layers with 32 and two 64 filters using relu activation function, Kernel size 3. 
 •	Every Conv2D layer is followed immediately by a MaxPooling2D layer with a pool size= (2,2)
